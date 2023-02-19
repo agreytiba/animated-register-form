@@ -2,7 +2,7 @@ import React from 'react'
 import { Container, Row, Col, Card } from 'react-bootstrap'
 import { IoIosArrowRoundForward } from "react-icons/io"
 type Props = {
-    handleIntro:() => void
+    handleIntro: () => void
 }
 const Intro = ({handleIntro}:Props) => {
   return (
@@ -15,7 +15,7 @@ const Intro = ({handleIntro}:Props) => {
                 
               </Col>
               <Col xs={{span: 2}}>
-                  <div className='text-light rounded-circle' style={{ width: "100px", height: "100px", backgroundColor:"tomato",position:"relative" }}>
+                  <div style={{ width: "100px", height: "100px", backgroundColor:"tomato",position:"relative", borderRadius:"50%", color:"#fff" }}>
                       <span className='text-light  fs-1 position-absolute ' style={{top:"20px",left:"0"}} onClick ={handleIntro}>
                           <IoIosArrowRoundForward /> 
                       </span>
