@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+#animated register form
+# live demo: https://agreyanimatedform.netlify.app/
+Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
